@@ -1,0 +1,21 @@
+Use fload/index.html as a starting point
+
+The blue border marks the extent of <html>.
+The black border, <body> extent.
+Red is .page extent.
+
+There are 4 "panels" 1) menu
+                     2) sidebar
+                     3) content
+                     4) footer
+Each of these divs use class="foobar" instead of id="xyz"
+I'm not sure why use class.
+
+I specify the height of each of these using vh units, viewport height.
+20+56+16=92 !!! not 100% So what give here.
+
+sidebar and content use "float: left"
+footer uses "clear: both"
+
+menu has no width specified so it take 100% of .page width.
+sidebar and content use width 20% and 80%
