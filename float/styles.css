@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    border: solid blue;
+}
+
+body {
+    background: plum;
+    border: solid black;
+}
+
+/* .page is the container for .menu, .sidebar, .content, .footer 
+
+    the "trick" here for height of an elememt inside .page is to use
+    units of 'vh'. So see below; .menu=>height 20vh
+                                 .sidebar=>height 60vh
+                                 .content=>height 60vh
+				 .footer=>height 20vh
+*/
+
+.page {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.menu {
+    height: 20vh;
+    background-color: #B2D6FF;    /* Medium blue */
+}
+
+.sidebar {
+    float: left;
+    height: 56vh;
+    width: 20%;
+    background-color: #F09A9D;    /* Red */
+}
+.content {
+    border: solid lime;
+    float: left;
+    width: 80%;                 /* Add this */
+    height: 50vh;
+    background-color: #F5CF8E;
+}
+
+
+.footer {
+    clear: both;
+    height: 16vh;
+    background-color: #D6E9FE;    /* Light blue */
+    word-wrap: break-word;
+}
+
