@@ -3,12 +3,15 @@
 }
 
 html {
-    border: solid blue 8px;
+    background: grey;
+    margin: 32px;
+    border: solid lightblue 16px;
 }
 
 body {
-    background: plum;
-    border: solid black 6px;
+    margin: 8px;
+    background: lightgreen;
+    border: solid black 8px;
 }
 
 /* .page is the container for .menu, .sidebar, .content, .footer 

@@ -1,4 +1,4 @@
-Use fload/index.html as a starting point
+Use float/index.html as a starting point
 
 The blue border marks the extent of <html>.
 The black border, <body> extent.
@@ -19,3 +19,13 @@ footer uses "clear: both"
 
 menu has no width specified so it take 100% of .page width.
 sidebar and content use width 20% and 80%
+
+
+!!! why use class 
+
+The basic rule that you need to keep in mind while
+using classes and ids in CSS is that, id is used for single elements
+that appear on the page for only once (e.g. header, footer, menu),
+whereas class is used for single or multiple elements that appear on
+the page for once or more than once (e.g. paragraphs, links, ...Apr
+20, 2016
