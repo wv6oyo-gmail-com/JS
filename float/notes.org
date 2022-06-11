@@ -29,3 +29,7 @@ that appear on the page for only once (e.g. header, footer, menu),
 whereas class is used for single or multiple elements that appear on
 the page for once or more than once (e.g. paragraphs, links, ...Apr
 20, 2016
+
+
+git remote set-url origin https://wv6oyo-gmail-com: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@github.com/wv6oyo-gmail-com/JS.git
+

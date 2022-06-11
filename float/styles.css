@@ -23,24 +23,24 @@ body {
 				 .footer=>height 20vh
 */
 
-.page {
+#page {
     width: 90%;
     margin: 0 auto;
     border: 2px solid red;
 }
 
-.menu {
+#menu {
     height: 20vh;
     background-color: #B2D6FF;    /* Medium blue */
 }
 
-.sidebar {
+#sidebar {
     float: left;
     height: 56vh;
     width: 20%;
     background-color: #F09A9D;    /* Red */
 }
-.content {
+#content {
     border: solid lime;
     float: left;
     width: 80%;                 /* Add this */
@@ -49,9 +49,9 @@ body {
 }
 
 
-.footer {
+#footer {
     clear: both;
-    height: 16vh;
+    height: 8vh;
     background-color: #D6E9FE;    /* Light blue */
     word-wrap: break-word;
 }
